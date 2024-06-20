@@ -3,7 +3,7 @@ name: object-question
 about: object question template
 title: "[Chapter00]"
 labels: documentation
-assignees: pythonstrup
+assignees: ''
 
 ---
 

@@ -2,7 +2,7 @@
 name: object-question
 about: object question template
 title: "[Chapter00]"
-labels: Inspiration
+labels: question
 assignees: ''
 
 ---

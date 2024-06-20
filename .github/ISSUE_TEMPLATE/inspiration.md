@@ -2,7 +2,7 @@
 name: inspiration
 about: inspiration
 title: "[Chapter00]"
-labels: question
+labels: inspiration
 assignees: ''
 
 ---

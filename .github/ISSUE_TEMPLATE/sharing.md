@@ -1,8 +1,8 @@
 ---
-name: inspiration
-about: inspiration
+name: sharing
+about: sharing your inspiration
 title: "[Chapter00]"
-labels: inspiration
+labels: sharing
 assignees: ''
 
 ---

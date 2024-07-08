@@ -10,7 +10,8 @@ public class NoneDiscountPolicy extends DiscountPolicy {
   }
 
   @Override
-  public Money calculateDiscountAmount(final LocalDateTime whenScreened, final int sequence, final Money movieFee) {
+  public Money calculateDiscountPolicyAmount(
+      final LocalDateTime whenScreened, final int sequence, final Money movieFee) {
     return Money.ZERO;
   }
 }

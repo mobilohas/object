@@ -11,7 +11,12 @@ public abstract class DiscountPolicy {
     this.discountConditions = discountConditions;
   }
 
-  abstract public Money calculateDiscountAmount(LocalDateTime whenScreened, int sequence, Money movieFee);
+  public Money calculateDiscountAmount(LocalDateTime whenScreened, int sequence, Money movieFee) {
+    if(isDiscountable(whenScreened, sequence)) {
+      return calculateDiscountPolicyAmount(whenScreened, sequence, movieFee);
+    }
+    return Money.ZERO;
+  }
 
   protected boolean isDiscountable(LocalDateTime whenScreened, int sequence) {
     for (DiscountCondition condition : discountConditions) {
@@ -27,4 +32,6 @@ public abstract class DiscountPolicy {
     }
     return false;
   }
+
+  abstract protected Money calculateDiscountPolicyAmount(LocalDateTime whenScreened, int sequence, Money movieFee);
 }

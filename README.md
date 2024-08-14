@@ -2,7 +2,7 @@
 
 ## 로테이션
 
-- `bell` -> `forky` -> `sudong`
+- `bell` -> `forky` -> `sudong` -> `green`
 - 위 순서대로 매주 리더가 바뀝니다.
 
 ## 학습
